@@ -8,6 +8,16 @@
 // -> home page -> add Links
 
 // create store
-// -> beg - useContext
+// -> beg - useContext -✅
 // -> med - zuxtand
 // -> adv - redux
+
+// create todos state
+// -> use in todo.jsx and home.jsx
+
+---
+
+// delete todo
+// add checkbox -> to mark completed todo
+
+// show completed todos in home page.
