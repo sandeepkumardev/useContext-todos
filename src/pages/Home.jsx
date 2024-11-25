@@ -1,5 +1,17 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
-  return <div>Home Page</div>;
+  return (
+    <div>
+      <Link to="/todo">Todo</Link>
+
+      <div>
+        <h1>Total 10 tasks</h1>
+        <h3>05 pending tasks</h3>
+        <h5>05 completed tasks</h5>
+      </div>
+    </div>
+  );
 };
 
 export default Home;
