@@ -1,6 +1,12 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { TodoStore } from "../store/index.jsx";
 
 const Home = () => {
+  const { name, email } = useContext(TodoStore);
+
+  console.log(name, email);
+
   return (
     <div>
       <Link to="/todo">Todo</Link>
