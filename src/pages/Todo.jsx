@@ -19,6 +19,12 @@ const Todo = () => {
           <input type="text" value={input} onChange={(e) => setInput(e.target.value)} />
           <button type="submit">Add</button>
         </form>
+
+        <ul>
+          {todos.map((todo, index) => (
+            <li key={index}>{todo}</li>
+          ))}
+        </ul>
       </div>
     </div>
   );
